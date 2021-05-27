@@ -30,44 +30,44 @@ class BadgeForm extends React.Component {
           <div className="form-group">
             <label>First name</label>
             <input
-              onChange={this.handleChange}
+              onChange={this.props.onChange}
               className="form-control"
               type="text"
               name="firstName"
-              value={this.setState.firstName}
+              value={this.props.formValues.firstName}
             ></input>
           </div>
 
           <div className="form-group">
             <label>Last name</label>
             <input
-              onChange={this.handleChange}
+              onChange={this.props.onChange}
               className="form-control"
               type="text"
               name="lastName"
-              value={this.setState.lastName}
+              value={this.props.formValues.lastName}
             ></input>
           </div>
 
           <div className="form-group">
             <label>Email</label>
             <input
-              onChange={this.handleChange}
+              onChange={this.props.onChange}
               className="form-control"
               type="text"
               name="email"
-              value={this.setState.email}
+              value={this.props.formValues.email}
             ></input>
           </div>
 
           <div className="form-group">
             <label>Job title</label>
             <input
-              onChange={this.handleChange}
+              onChange={this.props.onChange}
               className="form-control"
               type="text"
               name="jobTitle"
-              value={this.setState.jobTitle}
+              value={this.props.formValues.jobTitle}
             ></input>
           </div>
 
