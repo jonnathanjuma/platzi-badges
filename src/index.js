@@ -3,16 +3,18 @@ import ReactDOM from "react-dom";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./global.css";
-import Badge from "./components/Badge";
+// import Badge from "./components/Badge";
+
+import BadgeNew from "./pages/BadgeNew";
 
 const container = document.getElementById("app");
 
 ReactDOM.render(
-  <Badge
-    firstName="Jota"
-    lastName="Juma"
-    jobTitle="Arquitecto"
-    twitter="@jjuma"
+  <BadgeNew
+  // firstName="Jota"
+  // lastName="Juma"
+  // jobTitle="Arquitecto"
+  // twitter="@jjuma"
   />,
   container
 );
