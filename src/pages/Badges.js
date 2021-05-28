@@ -46,8 +46,8 @@ class Badges extends React.Component {
 
   render() {
     return (
-      <div>
-        <Navbar />
+      <React.Fragment>
+        {/* <Navbar /> */}
 
         <div className="Badges">
           <div className="Badges__hero">
@@ -70,7 +70,7 @@ class Badges extends React.Component {
 
           <BadgesList badges={this.state.data} />
         </div>
-      </div>
+      </React.Fragment>
     );
   }
 }
